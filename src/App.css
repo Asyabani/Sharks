@@ -1,3 +1,8 @@
+body {
+  font-family:'SF Pro Display',SF Pro Display;
+    
+}
+
 .App {
   text-align: center;
 }
@@ -27,6 +32,20 @@
 .App-link {
   color: #61dafb;
 }
+Button{
+  border-radius: 15px!important;
+}
+.custom-img{
+  height: 340px;
+}
+
+.icon{
+  margin-bottom: -200px;
+  margin-top: 800px;
+}
+.left-question{
+  margin-top: 600px;
+}
 
 @keyframes App-logo-spin {
   from {
@@ -34,5 +53,47 @@
   }
   to {
     transform: rotate(360deg);
+  }
+}
+/* Medium */
+@media only screen and (max-width: 959px) {
+
+  .cover-testi{
+    width: 80%;
+  }
+  .testi-1{
+    margin-top:170px;
+    margin-left: -300px;
+  }
+  .testi-2{
+    margin-top:280px;
+    margin-left: -300px;
+  }
+  .testi-3{
+    margin-top:390px;
+    margin-left: -300px;
+  }
+  .testi-4{
+    margin-top:500px;
+    margin-left: -300px;
+  }
+}
+@media only screen and (min-width: 960px) {
+
+  .testi-1{
+    margin-top: -400px;
+    margin-left: 30px;
+  }
+  .testi-2{
+    margin-top: -290px;
+    margin-left: 30px;
+  }
+  .testi-3{
+    margin-top: -180px;
+    margin-left: 30px;
+  }
+  .testi-4{
+    margin-top: -70px;
+    margin-left: 30px;
   }
 }
